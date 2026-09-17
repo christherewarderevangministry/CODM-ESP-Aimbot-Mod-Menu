@@ -20,6 +20,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Setup Android NDK
+        id: setup-ndk
         uses: nmdh/setup-ndk@v1
         with:
           ndk-version: r21e
